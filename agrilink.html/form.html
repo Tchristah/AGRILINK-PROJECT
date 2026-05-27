@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriLink - Join Us</title>
+      <link rel="stylesheet" href="form.css">
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #eef7ee;
+            margin: 0;
+        }
+
+        header{
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container{
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2{
+            color: #2e8b57;
+        }
+
+        form{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .full-width{
+            grid-column: 1 / 3;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input, select, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        textarea{
+            resize: vertical;
+        }
+
+        button{
+            background-color: #2e8b57;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button:hover{
+            background-color: #246b45;
+        }
+
+        .back{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back a{
+            text-decoration: none;
+            color: #2e8b57;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1> Join AgriLink</h1>
+    <p>Become part of our agricultural community</p>
+</header>
+
+<div class="container">
+
+<form>
+
+<div>
+<label>Full Name</label>
+<input type="text" required>
+</div>
+
+<div>
+<label>Email Address</label>
+<input type="email" required>
+</div>
+
+<div>
+<label>Phone Number</label>
+<input type="text">
+</div>
+
+<div>
+<label>Location</label>
+<input type="text">
+</div>
+
+<div>
+<label>Select Your Role</label>
+<select>
+    <option>Farmer</option>
+    <option>Buyer</option>
+    <option>Retailer / Vendor</option>
+    <option>Partner Organization</option>
+</select>
+</div>
+
+<div>
+<label>Products / Interests</label>
+<input type="text">
+</div>
+
+<div class="full-width">
+<label>Challenges You Face</label>
+<textarea rows="4"></textarea>
+</div>
+
+<div class="full-width">
+<label>Additional Suggestions</label>
+<textarea rows="4"></textarea>
+</div>
+
+<div class="full-width">
+<button type="submit">Submit Registration</button>
+</div>
+
+</form>
+
+<div class="back">
+    <a href="index.html">⬅ Back to Home</a>
+</div>
+
+</div>
+
+</body>
+</html>
