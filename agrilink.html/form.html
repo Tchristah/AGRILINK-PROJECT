@@ -1,78 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>AgriLink - Join Us</title>
-      <link rel="stylesheet" href="form.css">
-
-        
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join AgriLink</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
 
 <header>
-    <h1> Join AgriLink</h1>
-    <p>Become part of our agricultural community</p>
+    <h1>🌱 Join AgriLink</h1>
+    <p>Create your account and become part of our agricultural community.</p>
 </header>
 
-<div class="container">
+<div class="form-container">
 
 <form>
 
-<div>
-<label>Full Name</label>
-<input type="text" required>
-</div>
+    <div class="grid">
 
-<div>
-<label>Email Address</label>
-<input type="email" required>
-</div>
+        <div class="field">
+            <label>First Name</label>
+            <input type="text" required>
+        </div>
 
-<div>
-<label>Phone Number</label>
-<input type="text">
-</div>
+        <div class="field">
+            <label>Last Name</label>
+            <input type="text" required>
+        </div>
 
-<div>
-<label>Location</label>
-<input type="text">
-</div>
+        <div class="field">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
 
-<div>
-<label>Select Your Role</label>
-<select>
-    <option>Farmer</option>
-    <option>Buyer</option>
-    <option>Retailer / Vendor</option>
-    <option>Partner Organization</option>
-</select>
-</div>
+        <div class="field">
+            <label>Phone Number</label>
+            <input type="tel" required>
+        </div>
 
-<div>
-<label>Products / Interests</label>
-<input type="text">
-</div>
+        <div class="field">
+            <label>Password</label>
+            <input type="password" required>
+        </div>
 
-<div class="full-width">
-<label>Challenges You Face</label>
-<textarea rows="4"></textarea>
-</div>
+        <div class="field">
+            <label>Confirm Password</label>
+            <input type="password" required>
+        </div>
 
-<div class="full-width">
-<label>Additional Suggestions</label>
-<textarea rows="4"></textarea>
-</div>
+        <div class="field">
+            <label>District</label>
+            <input type="text">
+        </div>
 
-<div class="full-width">
-<button type="submit">Submit Registration</button>
-</div>
+        <div class="field">
+            <label>Sector</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>User Type</label>
+            <select>
+                <option>Farmer</option>
+                <option>Buyer</option>
+                <option>Retailer</option>
+                <option>Vendor</option>
+                <option>Transport Partner</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Main Product</label>
+            <select>
+                <option>Cassava</option>
+                <option>Beans</option>
+                <option>Maize</option>
+                <option>Irish Potatoes</option>
+                <option>Tomatoes</option>
+                <option>Bananas</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Farm Size (Acres)</label>
+            <input type="number">
+        </div>
+
+        <div class="field">
+            <label>Years of Experience</label>
+            <input type="number">
+        </div>
+
+    </div>
+
+    <div class="field full">
+        <label>Additional Information</label>
+        <textarea rows="5"></textarea>
+    </div>
+
+    <div class="buttons">
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </div>
 
 </form>
-
-<div class="back">
-    <a href="index.html">⬅ Back to Home</a>
-</div>
 
 </div>
 
