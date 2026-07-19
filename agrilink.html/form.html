@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join AgriLink</title>
     <link rel="stylesheet" href="form.css">
+    <style>
+        .back-home{
+            display:inline-block;
+            margin-top:15px;
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            border:1px solid white;
+            padding:8px 16px;
+            border-radius:6px;
+            transition:.3s;
+        }
+        .back-home:hover{
+            background:white;
+            color:#2E7D32;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,11 +30,12 @@
 <header>
     <h1>🌱 Join AgriLink</h1>
     <p>Create your account and become part of our agricultural community.</p>
+    <a href="index.html" class="back-home">← Back to Homepage</a>
 </header>
 
 <div class="form-container">
 
-<form>
+<form id="joinForm">
 
     <div class="grid">
 
@@ -109,6 +127,8 @@
 </form>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
