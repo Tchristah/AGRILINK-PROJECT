@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join AgriLink</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        .back-home{
+            display:inline-block;
+            margin-top:15px;
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            border:1px solid white;
+            padding:8px 16px;
+            border-radius:6px;
+            transition:.3s;
+        }
+        .back-home:hover{
+            background:white;
+            color:#2E7D32;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Join AgriLink</h1>
+    <p>Create your account and become part of our agricultural community.</p>
+    <a href="index.html" class="back-home">← Back to Homepage</a>
+</header>
+
+<div class="form-container">
+
+<form id="joinForm">
+
+    <div class="grid">
+
+        <div class="field">
+            <label>First Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="field">
+            <label>Last Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="field">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="field">
+            <label>Phone Number</label>
+            <input type="tel" required>
+        </div>
+
+        <div class="field">
+            <label>Password</label>
+            <input type="password" required>
+        </div>
+
+        <div class="field">
+            <label>Confirm Password</label>
+            <input type="password" required>
+        </div>
+
+        <div class="field">
+            <label>District</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>Sector</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>User Type</label>
+            <select>
+                <option>Farmer</option>
+                <option>Buyer</option>
+                <option>Retailer</option>
+                <option>Vendor</option>
+                <option>Transport Partner</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Main Product</label>
+            <select>
+                <option>Cassava</option>
+                <option>Beans</option>
+                <option>Maize</option>
+                <option>Irish Potatoes</option>
+                <option>Tomatoes</option>
+                <option>Bananas</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Farm Size (Acres)</label>
+            <input type="number">
+        </div>
+
+        <div class="field">
+            <label>Years of Experience</label>
+            <input type="number">
+        </div>
+
+    </div>
+
+    <div class="field full">
+        <label>Additional Information</label>
+        <textarea rows="5"></textarea>
+    </div>
+
+    <div class="buttons">
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </div>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
