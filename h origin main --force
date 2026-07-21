@@ -1,0 +1,30 @@
+[33mb94ddbb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Delete script.js
+[33m16c9124[m Delete index.html
+[33m9900dae[m Delete agrilink directory
+[33mb92cda9[m Delete home.css
+[33ma43c851[m Delete form.html
+[33m10e8618[m Delete form.css
+[33mdbbf1c3[m Delete contact.html
+[33ma12841a[m Delete about.html
+[33md6adae1[m Rename agrilink/about.html to about.html
+[33mbfbf5d4[m Rename agrilink/contact.html to contact.html
+[33md35dea4[m Rename agrilink/form.css to form.css
+[33m7d02c37[m Rename agrilink/form.html to form.html
+[33md6b95d9[m Rename agrilink/home.css to home.css
+[33mc8713c5[m Rename agrilink/script.js to script.js
+[33m8eb56c9[m Rename agrilink/index.html to index.html
+[33m4ae205e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add PDF version of project report
+[33mafa5570[m Remove old agrilink.html folder, keep only agrilink
+[33mb2a277d[m Move project to agrilink folder, add About/Contact pages, script.js, updated styles
+[33m9b86177[m Replace old files with updated versions
+[33mb336b6b[m Replace old project with new project
+[33mbe9b008[m updated form.html
+[33m3a5676a[m Merge branch 'main' of https://github.com/Tchristah/AGRILINK-PROJECT
+[33m704013b[m updated project
+[33m1834a05[m Delete web design assignment 1.html/index.html
+[33me4a31a7[m Delete web design assignment 1.html/frameset.html
+[33m4351581[m Delete web design assignment 1.html/form.html
+[33m11a6787[m Delete web design assignment 1.html/examole.html
+[33m20a2d1e[m Delete web design assignment 1.html.zip
+[33m3d373c7[m Delete rev.html
+[33m3e9c306[m First commit
